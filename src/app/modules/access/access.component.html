@@ -1,0 +1,36 @@
+<h1 mat-dialog-title>Bem vindo, para continuar, defina o perfil de acesso.</h1>
+<div mat-dialog-content>
+  <p></p>
+  <mat-form-field fxFlex>
+    <mat-select placeholder="Selecione o Perfil" [(ngModel)]="Perfil">
+      <mat-option [value]="'Secretário'">Secretário </mat-option>
+      <mat-option [value]="'Presidência'"
+        >Presidência e Diretoria Adece
+      </mat-option>
+      <mat-option [value]="'Técnico Sedet'">Técnico Sedet </mat-option>
+      <mat-option [value]="'H2V Sedet'">H2V Sedet </mat-option>
+      <mat-option [value]="'Técnico Adece'">Técnico Adece </mat-option>
+      <mat-option [value]="'Público'">Público </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div fxFlex="1"></div>
+  <mat-form-field fxFlex>
+    <input
+      matInput
+      type="password"
+      [(ngModel)]="password"
+      placeholder="Sua Senha"
+    />
+  </mat-form-field>
+  <div fxFlex="1"></div>
+</div>
+<div mat-dialog-actions>
+  <button
+    mat-button
+    (click)="onNoClick()"
+    [disabled]="Perfil.length === 0 && password.length === 0"
+    cdkFocusInitial
+  >
+    Ok, Entrar
+  </button>
+</div>

@@ -1,0 +1,246 @@
+<mat-nav-list>
+  <div class="profile-card">
+    <div class="header pointer">
+      <h4>{{ services.Perfil }}</h4>
+    </div>
+    <img src="assets/images/Brasao.png" alt="SEDET" />
+  </div>
+
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader style="font-weight: bold">Menu Principal</h2>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/bi-educacao"
+    >BI Educação
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="['Secretário', 'Técnico Sedet'].indexOf(services.Perfil) !== -1"
+    routerLinkActive="list-item-active"
+    routerLink="/bi-empreende"
+    >BI Empreende+
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/cearacredi"
+    >Cearacredi - Monitoramento de cadastros
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/coeficiente-operacional"
+    >Coeficiente Ocupacional
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/ee-ce"
+    >Empregos em Empresas Cearenses
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/eafdi"
+    >Empresas Ativas no FDI
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      [
+        'Secretário',
+        'Presidência',
+        'Técnico Adece',
+        'Técnico Sedet'
+      ].indexOf(services.Perfil) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/erce"
+    >Empresas Registradas no Ceará
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="['Secretário', 'Presidência'].indexOf(services.Perfil) !== -1"
+    routerLinkActive="list-item-active"
+    routerLink="/fdif"
+    >FDI Financeiro
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['H2V Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/h2v"
+    >Hidrogênio Verde</a
+  >
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="['Secretário'].indexOf(services.Perfil) !== -1"
+    routerLinkActive="list-item-active"
+    routerLink="/ifei"
+    >Indicadores Financeiros Empresas Incentivadas</a
+  >
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/ifv"
+    >Indicadores Financeiros Vinculadas</a
+  >
+
+  <mat-divider> </mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/irv"
+    >Indicadores de Risco Vinculadas
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/indicadoresCeara"
+    >Indicadores Socioeconômico do Ceará
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      [
+        'Secretário',
+        'Presidência',
+        'Técnico Adece',
+        'Técnico Sedet',
+        'Público'
+      ].indexOf(services.Perfil) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/mses"
+    >Monitor Socioeconômico Sedet</a
+  >
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      [
+        'Secretário',
+        'Presidência',
+        'Técnico Adece',
+        'Técnico Sedet',
+        'Público'
+      ].indexOf(services.Perfil) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/ncaged"
+    >RAIS e CAGED Ceará
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/imoveisAdece"
+    >Relação de Imóveis ADECE
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="['Secretário'].indexOf(services.Perfil) !== -1"
+    routerLinkActive="list-item-active"
+    routerLink="/rmebfdi"
+    >Relatório de Monitoramento das Empresas Beneficiadas pelo FDI</a
+  >
+
+  <mat-divider></mat-divider>
+
+  <!--a *ngFor="let opcao of services.menu" mat-list-item routerLinkActive="list-item-active"
+    routerLink="/bisedet/{{opcao.id}}">{{opcao.title}}</a-->
+  <!--h2 matSubheader>Administração</h2-->
+
+  <!--a mat-list-item routerLinkActive="list-item-active" routerLink="/assuntos">Assuntos</a-->
+
+  <!--a mat-list-item routerLinkActive="list-item-active" routerLink="/endpoints">
+        <mat-icon>import_contacts</mat-icon>
+        Empresas e EndPoints
+    </a-->
+
+  <!--a mat-list-item routerLinkActive="list-item-active" (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        LogOut
+    </a-->
+</mat-nav-list>
