@@ -56,7 +56,7 @@ export class DashboardComponent implements OnInit {
     private dialog: MatDialog,
     private service: ExternalService
   ) {
-    document.title = "Dashboard - SEDET";
+    document.title = "Dashboard - ADECE";
   }
 
   ngOnInit() {

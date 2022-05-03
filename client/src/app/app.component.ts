@@ -11,7 +11,7 @@ import { AccessComponent } from "./modules/access/access.component";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent implements OnInit {
-  title = "BI - Panorama SEDET";
+  title = "BI - Panorama ADECE";
   numeroChamador: string;
   numeroChamado: string;
   ramalId: string;
