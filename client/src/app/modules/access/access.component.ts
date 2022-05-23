@@ -46,6 +46,16 @@ export class AccessComponent implements OnInit {
     ) {
       this.dialogRef.close(this.Perfil);
     } else if (
+      this.Perfil === "Diretor DIRINP" &&
+      this.password === "fa0b9f6c51cf"
+    ) {
+      this.dialogRef.close(this.Perfil);
+    } else if (
+      this.Perfil === "Diretor DIFOM" &&
+      this.password === "75f33eff1084"
+    ) {
+      this.dialogRef.close(this.Perfil);
+    } else if (
       this.Perfil === "Presidência" &&
       this.password === "6985d3b9419c"
     ) {

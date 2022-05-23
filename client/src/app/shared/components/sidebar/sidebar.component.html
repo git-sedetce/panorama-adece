@@ -13,7 +13,7 @@
   <mat-divider></mat-divider>
   <a
     mat-list-item
-    *ngIf="['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico'].indexOf(services.Perfil) !== -1"
+    *ngIf="['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/monitor-mercado"
     >MONITOR DE MERCADO
@@ -23,7 +23,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Presidência', 'Diretor', 'Assessor'].indexOf(
+      ['Presidência', 'Diretor', 'Assessor', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -36,7 +36,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico'].indexOf(
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -49,7 +49,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Presidência', 'Diretor', 'Gerente', 'Assessor'].indexOf(
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -62,7 +62,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Presidência', 'Diretor', 'Técnico DIRINP', 'Assessor'].indexOf(
+      ['Presidência', 'Técnico DIRINP', 'Assessor', 'Diretor DIRINP'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -75,7 +75,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico'].indexOf(services.Perfil) !== -1
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(services.Perfil) !== -1
     "
     routerLinkActive="list-item-active"
     routerLink="/economia-cearense"
@@ -85,7 +85,7 @@
   <mat-divider></mat-divider>
   <a
     mat-list-item
-    *ngIf="['Presidência', 'Diretor', 'Assessor','Técnico FDI'].indexOf(services.Perfil) !== -1"
+    *ngIf="['Presidência', 'Diretor DIFOM', 'Assessor','Técnico FDI'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/fdif"
     >PLEITOS - FDI
