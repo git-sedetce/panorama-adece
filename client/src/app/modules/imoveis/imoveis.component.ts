@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-eafdi',
-  templateUrl: './eafdi.component.html',
-  styleUrls: ['./eafdi.component.scss']
+  selector: 'app-imoveis',
+  templateUrl: './imoveis.component.html',
+  styleUrls: ['./imoveis.component.scss']
 })
 export class EmpresasAtivasFdiComponent implements OnInit {
 
