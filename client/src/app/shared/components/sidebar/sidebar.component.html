@@ -13,7 +13,7 @@
   <mat-divider></mat-divider>
   <a
     mat-list-item
-    *ngIf="['Secretário', 'Técnico Sedet'].indexOf(services.Perfil) !== -1"
+    *ngIf="['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/monitor-mercado"
     >MONITOR DE MERCADO
@@ -23,7 +23,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+      ['Presidência', 'Diretor', 'Assessor'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -36,7 +36,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -49,7 +49,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -62,7 +62,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece'].indexOf(
+      ['Presidência', 'Diretor', 'Técnico DIRINP', 'Assessor'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -75,12 +75,7 @@
   <a
     mat-list-item
     *ngIf="
-      [
-        'Secretário',
-        'Presidência',
-        'Técnico Adece',
-        'Técnico Sedet'
-      ].indexOf(services.Perfil) !== -1
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico'].indexOf(services.Perfil) !== -1
     "
     routerLinkActive="list-item-active"
     routerLink="/economia-cearense"
@@ -90,7 +85,7 @@
   <mat-divider></mat-divider>
   <a
     mat-list-item
-    *ngIf="['Secretário', 'Presidência'].indexOf(services.Perfil) !== -1"
+    *ngIf="['Presidência', 'Diretor', 'Assessor','Técnico FDI'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/fdif"
     >PLEITOS - FDI
@@ -100,7 +95,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['H2V Sedet'].indexOf(
+      ['Presidência', 'Assessor'].indexOf(
         services.Perfil
       ) !== -1
     "
@@ -112,7 +107,7 @@
   <mat-divider></mat-divider>
   <a
     mat-list-item
-    *ngIf="['Secretário'].indexOf(services.Perfil) !== -1"
+    *ngIf="['Presidência', 'Assessor'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/ifei"
     >PIPELINE ADECE</a
@@ -122,7 +117,7 @@
   <a
     mat-list-item
     *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+      ['Presidência', 'Assessor'].indexOf(
         services.Perfil
       ) !== -1
     "
