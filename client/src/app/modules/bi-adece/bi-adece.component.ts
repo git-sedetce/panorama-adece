@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "app-bi-educacao",
-  templateUrl: "./bi-educacao.component.html",
-  styleUrls: ["./bi-educacao.component.scss"],
+  selector: "app-bi-adece",
+  templateUrl: "./bi-adece.component.html",
+  styleUrls: ["./bi-adece.component.scss"],
 })
 export class BIEducacaoComponent implements OnInit {
   constructor() {}
