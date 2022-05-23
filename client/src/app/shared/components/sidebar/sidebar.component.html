@@ -19,8 +19,8 @@
       ) !== -1
     "
     routerLinkActive="list-item-active"
-    routerLink="/bi-educacao"
-    >BI Educação
+    routerLink="/bi-adece"
+    >BI's ADECE
   </a>
 
   <mat-divider></mat-divider>
@@ -28,8 +28,8 @@
     mat-list-item
     *ngIf="['Secretário', 'Técnico Sedet'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
-    routerLink="/bi-empreende"
-    >BI Empreende+
+    routerLink="/monitor-mercado"
+    >MONITOR DE MERCADO
   </a>
 
   <mat-divider></mat-divider>
@@ -42,7 +42,7 @@
     "
     routerLinkActive="list-item-active"
     routerLink="/cearacredi"
-    >Cearacredi - Monitoramento de cadastros
+    >CEARÁ CREDI
   </a>
 
   <mat-divider></mat-divider>
@@ -54,8 +54,8 @@
       ) !== -1
     "
     routerLinkActive="list-item-active"
-    routerLink="/coeficiente-operacional"
-    >Coeficiente Ocupacional
+    routerLink="/noticias"
+    >NOTÍCIAS DO DIA
   </a>
 
   <mat-divider></mat-divider>
@@ -67,8 +67,8 @@
       ) !== -1
     "
     routerLinkActive="list-item-active"
-    routerLink="/ee-ce"
-    >Empregos em Empresas Cearenses
+    routerLink="/mapps-adece"
+    >MAPPS ADECE
   </a>
 
   <mat-divider></mat-divider>
@@ -80,8 +80,8 @@
       ) !== -1
     "
     routerLinkActive="list-item-active"
-    routerLink="/eafdi"
-    >Empresas Ativas no FDI
+    routerLink="/imoveis"
+    >IMÓVEIS
   </a>
 
   <mat-divider></mat-divider>
@@ -96,8 +96,8 @@
       ].indexOf(services.Perfil) !== -1
     "
     routerLinkActive="list-item-active"
-    routerLink="/erce"
-    >Empresas Registradas no Ceará
+    routerLink="/economia-cearense"
+    >ECONOMIA CEARENSE
   </a>
 
   <mat-divider></mat-divider>
@@ -106,7 +106,7 @@
     *ngIf="['Secretário', 'Presidência'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/fdif"
-    >FDI Financeiro
+    >PLEITOS - FDI
   </a>
 
   <mat-divider></mat-divider>
@@ -119,7 +119,7 @@
     "
     routerLinkActive="list-item-active"
     routerLink="/h2v"
-    >Hidrogênio Verde</a
+    >INDICADORES FINANCEIROS</a
   >
 
   <mat-divider></mat-divider>
@@ -128,7 +128,7 @@
     *ngIf="['Secretário'].indexOf(services.Perfil) !== -1"
     routerLinkActive="list-item-active"
     routerLink="/ifei"
-    >Indicadores Financeiros Empresas Incentivadas</a
+    >PIPELINE ADECE</a
   >
 
   <mat-divider></mat-divider>
@@ -141,9 +141,9 @@
     "
     routerLinkActive="list-item-active"
     routerLink="/ifv"
-    >Indicadores Financeiros Vinculadas</a
+    >DOCUMENTOS VARIADOS</a
   >
-
+<!--
   <mat-divider> </mat-divider>
   <a
     mat-list-item
@@ -225,7 +225,7 @@
     routerLink="/rmebfdi"
     >Relatório de Monitoramento das Empresas Beneficiadas pelo FDI</a
   >
-
+-->
   <mat-divider></mat-divider>
 
   <!--a *ngFor="let opcao of services.menu" mat-list-item routerLinkActive="list-item-active"

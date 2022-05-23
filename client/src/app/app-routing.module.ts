@@ -5,11 +5,11 @@ import { DefaultComponent } from "./layouts/default/default.component";
 import { BIEducacaoComponent } from "./modules/bi-adece/bi-adece.component";
 import { BIEmpreendeComponent } from "./modules/monitor-mercado/monitor-mercado.component";
 import { CearaCrediComponent } from "./modules/cearacredi/cearacredi.component";
-import { CoeficienteOperacionalComponent } from "./modules/coeficiente-operacional/coeficiente-operacional.component";
+import { CoeficienteOperacionalComponent } from "./modules/noticias/noticias.component";
 import { DashboardComponent } from "./modules/dashboard/dashboard.component";
-import { EmpresasAtivasFdiComponent } from "./modules/empresas-ativas-fdi/eafdi.component"
-import { EmpresasEmpregoCeComponent } from "./modules/empresas-emprego-ce/ee-ce.component"
-import { EmpresasRegistradasCearaComponent } from "./modules/empresas-registradas-ceara/erce.component"
+import { EmpresasAtivasFdiComponent } from "./modules/imoveis/imoveis.component"
+import { EmpresasEmpregoCeComponent } from "./modules/mapps-adece/mapps-adece.component"
+import { EmpresasRegistradasCearaComponent } from "./modules/economia-cearense/economia-cearense.component"
 import { FDIFinanceiroComponent } from "./modules/fdi-financeiro/fdi-financeiro.component";
 import { H2VerdeComponent } from "./modules/h2-verde/h2-verde.component"
 import { ImoveisAdeceComponent } from "./modules/imoveis-adece/imoveis-adece.component";
@@ -44,7 +44,7 @@ const routes: Routes = [
       { path: "mses", component: MSESComponent },
       { path: "ncaged", component: NCagedComponent },
       {
-        path: "coeficiente-operacional",
+        path: "noticias",
         component: CoeficienteOperacionalComponent,
       },
       { path: "cearacredi", component: CearaCrediComponent },
@@ -77,7 +77,7 @@ const routes: Routes = [
         component: BIEducacaoComponent,
       },
       {
-        path: "erce",
+        path: "economia-cearense",
         data: {
           url: "https://app.powerbi.com/view?r=eyJrIjoiNzUxOWYzYjYtMjVmYS00YjBmLTljMDAtMzZjNTgwMWVhNDg0IiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9",
         },
@@ -91,14 +91,14 @@ const routes: Routes = [
         component: IndicadoresRiscoVinculadasComponent,
       },
       {
-        path: "ee-ce",
+        path: "mapps-adece",
         data: {
           url: "https://app.powerbi.com/view?r=eyJrIjoiYmFkYTRhMmUtZjQwMy00YmE5LThkZmQtNzdlZWNlMjJkMzI2IiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9&pageName=ReportSection",
         },
         component: EmpresasEmpregoCeComponent,
       },
       {
-        path: "eafdi",
+        path: "imoveis",
         data: {
           url: "https://app.powerbi.com/view?r=eyJrIjoiNjNhMTQyNDktYzFkMy00ZGY1LTlmNjYtNDRhYzI2Mjc5OTRlIiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9&pageName=ReportSection",
         },
