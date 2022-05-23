@@ -71,3 +71,14 @@ export class AccessComponent implements OnInit {
     }
   }
 }
+
+/*
+Presidente		    6985d3b9419c
+Diretor 		      09ca0d509560
+Diretor DIRINP		fa0b9f6c51cf
+Diretor DIFOM		  75f33eff1084
+Gerente			      c49b11f3ada7
+Assessor		      682c026c51cf
+Técnico - FDI		  75f33e6eebce
+Técnico - DIRINP	fa0b9fff1084
+Técnico			      b2b5019a134c*/
