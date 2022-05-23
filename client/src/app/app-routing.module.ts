@@ -3,7 +3,7 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { DefaultComponent } from "./layouts/default/default.component";
 import { BIEducacaoComponent } from "./modules/bi-adece/bi-adece.component";
-import { BIEmpreendeComponent } from "./modules/bi-empreende/bi-empreende.component";
+import { BIEmpreendeComponent } from "./modules/monitor-mercado/monitor-mercado.component";
 import { CearaCrediComponent } from "./modules/cearacredi/cearacredi.component";
 import { CoeficienteOperacionalComponent } from "./modules/coeficiente-operacional/coeficiente-operacional.component";
 import { DashboardComponent } from "./modules/dashboard/dashboard.component";
@@ -63,7 +63,7 @@ const routes: Routes = [
         component: ImoveisAdeceComponent,
       },
       {
-        path: "bi-empreende",
+        path: "monitor-mercado",
         data: {
           url: "https://app.powerbi.com/view?r=eyJrIjoiNDU5ODU4NWItNWQ1Ny00ZDIwLTlhYTYtZWFkZDhhZDE3NTMwIiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9",
         },

@@ -4,8 +4,8 @@ import { ExternalService } from "src/app/shared/services/external.service";
 
 @Component({
   selector: "app-novo-caged",
-  templateUrl: "./bi-empreende.component.html",
-  styleUrls: ["./bi-empreende.component.scss"],
+  templateUrl: "./monitor-mercado.component.html",
+  styleUrls: ["./monitor-mercado.component.scss"],
 })
 export class BIEmpreendeComponent implements OnInit {
   biurl: any;
