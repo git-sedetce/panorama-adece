@@ -8,20 +8,7 @@
 
   <mat-divider></mat-divider>
 
-  <h2 matSubheader style="font-weight: bold">Menu Principal</h2>
-
-  <mat-divider></mat-divider>
-  <a
-    mat-list-item
-    *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
-        services.Perfil
-      ) !== -1
-    "
-    routerLinkActive="list-item-active"
-    routerLink="/bi-adece"
-    >BI's ADECE
-  </a>
+  <h2 matSubheader style="font-weight: bold;">BI's ADECE</h2>  
 
   <mat-divider></mat-divider>
   <a
@@ -155,6 +142,19 @@
     routerLinkActive="list-item-active"
     routerLink="/irv"
     >Indicadores de Risco Vinculadas
+  </a>
+
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/bi-adece"
+    >BI's ADECE
   </a>
 
   <mat-divider></mat-divider>
