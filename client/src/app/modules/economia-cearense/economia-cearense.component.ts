@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-erce',
-  templateUrl: './erce.component.html',
-  styleUrls: ['./erce.component.scss']
+  selector: 'app-economia-cearense',
+  templateUrl: './economia-cearense.component.html',
+  styleUrls: ['./economia-cearense.component.scss']
 })
 export class EmpresasRegistradasCearaComponent implements OnInit {
 
