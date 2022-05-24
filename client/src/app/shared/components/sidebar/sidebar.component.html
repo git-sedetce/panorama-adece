@@ -123,8 +123,16 @@
     "
     routerLinkActive="list-item-active"
     routerLink="/ifv"
-    >DOCUMENTOS VARIADOS</a
-  >
+    >DOCUMENTOS VARIADOS</a>
+
+    <mat-divider></mat-divider>
+    <a
+    mat-list-item
+    *ngIf="['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(services.Perfil) !== -1"
+    href="http://www.panorama.sedet.ce.gov.br/" target="_blank">PANORAMA SEDET
+  </a>
+
+  
 <!--
   <mat-divider> </mat-divider>
   <a
