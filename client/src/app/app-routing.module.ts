@@ -37,7 +37,7 @@ const routes: Routes = [
       {
         path: "h2v",
         data: {
-          url: "https://app.powerbi.com/view?r=eyJrIjoiNDU4ZjFmZjQtMjZiMy00NzYzLWFhZjAtOGFjOWNkMTU0OGQ4IiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9&pageName=ReportSectione10a0dedbd6d9a0d9ca7",
+          url: "https://app.powerbi.com/view?r=eyJrIjoiMzAxOWFkYWUtZWVmYy00NGZlLWE0OWEtMmNkMWU2OGY1ZWI5IiwidCI6IjgwMDM1N2UwLTg5ZTctNDk4Yi04Mzg1LTczOGUxOTMyNmZkNyJ9&pageName=ReportSectionc8c7e81ac25e3b6e00ee",
         },
         component: H2VerdeComponent,
       },
