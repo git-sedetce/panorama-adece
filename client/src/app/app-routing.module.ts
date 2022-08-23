@@ -33,6 +33,8 @@ const routes: Routes = [
         component: IndicadoresFinanceirosEmpresasIncentivadasComponent,
       },
       { path: "ifv", component: IndicadoresFinanceirosVinculadasComponent },
+      { path: "irv", component: IndicadoresRiscoVinculadasComponent },
+      { path: "bi-adece", component: BIEducacaoComponent },
       { path: "fdif", component: FDIFinanceiroComponent },
       {
         path: "h2v",
@@ -49,11 +51,7 @@ const routes: Routes = [
       },
       { path: "cearacredi", component: CearaCrediComponent },
       {
-        path: "indicadoresCeara",
-        data: {
-          url: "https://app.powerbi.com/view?r=eyJrIjoiZTY4OWZjOTEtYTM0ZS00NjFkLWI0N2QtMzM1Zjg2YWQ3OGZmIiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9",
-        },
-        component: IndicadoresCearaComponent,
+        path: "indicadoresCeara", component: IndicadoresCearaComponent,
       },
       {
         path: "imoveisAdece",
@@ -69,27 +67,14 @@ const routes: Routes = [
         },
         component: BIEmpreendeComponent,
       },
-      {
-        path: "bi-adece",
-        data: {
-          url: "https://app.powerbi.com/view?r=eyJrIjoiMGYzYTg2NjUtOGU2Zi00OWI2LWJjNTAtYzNlZDNiY2I0NmNjIiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9",
-        },
-        component: BIEducacaoComponent,
-      },
+      
       {
         path: "economia-cearense",
         data: {
           url: "https://app.powerbi.com/view?r=eyJrIjoiNzUxOWYzYjYtMjVmYS00YjBmLTljMDAtMzZjNTgwMWVhNDg0IiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9",
         },
         component: EmpresasRegistradasCearaComponent,
-      },
-      {
-        path: "irv",
-        data: {
-          url: "https://app.powerbi.com/view?r=eyJrIjoiMGIyZWIyNzctMWIzNy00NDY1LTg0MDUtYmJkM2VkNzdiZjc4IiwidCI6ImEwMGM5YWY1LWNlYzktNDM1Zi1iYWIzLTcxNWJhNjQ3M2JiNSJ9&pageName=ReportSection41149308f403803643aa",
-        },
-        component: IndicadoresRiscoVinculadasComponent,
-      },
+      },      
       {
         path: "mapps-adece",
         data: {

@@ -58,6 +58,19 @@
     >MAPPS ADECE
   </a>
 
+  <mat-divider> </mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/irv"
+    >CONVÊNIOS
+  </a>
+
   <mat-divider></mat-divider>
   <a
     mat-list-item
@@ -80,6 +93,50 @@
     routerLinkActive="list-item-active"
     routerLink="/economia-cearense"
     >ECONOMIA CEARENSE
+  </a>
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/bi-adece"
+    >CONTEXTO CEARENSE
+  </a>
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(
+        services.Perfil
+      ) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/indicadoresCeara"
+    >MERCADO DE TRABALHO
+  </a>
+  <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(services.Perfil) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/mses"
+    >INDICADORES ECONÔMICOS E SOCIAIS</a>
+
+    <mat-divider></mat-divider>
+  <a
+    mat-list-item
+    *ngIf="
+      ['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(services.Perfil) !== -1
+    "
+    routerLinkActive="list-item-active"
+    routerLink="/ncaged"
+    >INDICADORES MUNICIPAIS - P´REVIA
   </a>
 
   <mat-divider></mat-divider>
@@ -130,82 +187,12 @@
     mat-list-item
     *ngIf="['Presidência', 'Diretor', 'Gerente', 'Assessor','Técnico FDI', 'Técnico DIRINP', 'Técnico', 'Diretor DIRINP', 'Diretor DIFOM'].indexOf(services.Perfil) !== -1"
     href="http://www.panorama.sedet.ce.gov.br/" target="_blank">PANORAMA SEDET
-  </a>
+  </a>  
+<!-- 
 
   
-<!--
-  <mat-divider> </mat-divider>
-  <a
-    mat-list-item
-    *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
-        services.Perfil
-      ) !== -1
-    "
-    routerLinkActive="list-item-active"
-    routerLink="/irv"
-    >Indicadores de Risco Vinculadas
-  </a>
 
-  <mat-divider></mat-divider>
-  <a
-    mat-list-item
-    *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
-        services.Perfil
-      ) !== -1
-    "
-    routerLinkActive="list-item-active"
-    routerLink="/bi-adece"
-    >BI's ADECE
-  </a>
-
-  <mat-divider></mat-divider>
-  <a
-    mat-list-item
-    *ngIf="
-      ['Secretário', 'Presidência', 'Técnico Adece', 'Técnico Sedet'].indexOf(
-        services.Perfil
-      ) !== -1
-    "
-    routerLinkActive="list-item-active"
-    routerLink="/indicadoresCeara"
-    >Indicadores Socioeconômico do Ceará
-  </a>
-
-  <mat-divider></mat-divider>
-  <a
-    mat-list-item
-    *ngIf="
-      [
-        'Secretário',
-        'Presidência',
-        'Técnico Adece',
-        'Técnico Sedet',
-        'Público'
-      ].indexOf(services.Perfil) !== -1
-    "
-    routerLinkActive="list-item-active"
-    routerLink="/mses"
-    >Monitor Socioeconômico Sedet</a
-  >
-
-  <mat-divider></mat-divider>
-  <a
-    mat-list-item
-    *ngIf="
-      [
-        'Secretário',
-        'Presidência',
-        'Técnico Adece',
-        'Técnico Sedet',
-        'Público'
-      ].indexOf(services.Perfil) !== -1
-    "
-    routerLinkActive="list-item-active"
-    routerLink="/ncaged"
-    >RAIS e CAGED Ceará
-  </a>
+  
 
   <mat-divider></mat-divider>
   <a
