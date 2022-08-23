@@ -3,4 +3,5 @@ client/package-lock.json/*
 client/yarn.lock/*
 server/node_modules/*
 server/src/uploads/*git 
+client/dist/*
 *.mp4
